@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jarvis</string>
+
+    <string name="accessibility_service_label">Jarvis – controle do celular</string>
+    <string name="accessibility_service_description">Permite que o Jarvis leia o texto da tela e toque, role e digite em outros apps, somente quando você pede um comando. Senhas nunca são lidas e ações sensíveis (enviar, excluir, pagar) sempre pedem a sua confirmação.</string>
+
+    <string name="notification_channel_name">Jarvis ativo</string>
+    <string name="notification_title">Jarvis está ativo</string>
+    <string name="notification_text">Toque na bolinha flutuante para falar.</string>
+    <string name="notification_action_stop">Parar</string>
+
+    <string name="orb_content_description">Jarvis. Toque para falar.</string>
+
+    <string name="main_title">J.A.R.V.I.S.</string>
+    <string name="main_subtitle">Assistente pessoal de voz para Android</string>
+
+    <string name="section_permissions">Permissões</string>
+    <string name="section_api_key">Chave da API do Claude</string>
+    <string name="section_model">Modelo de IA</string>
+    <string name="section_test">Testar por texto</string>
+
+    <string name="perm_mic_title">Microfone</string>
+    <string name="perm_mic_desc">Para ouvir os seus comandos de voz.</string>
+    <string name="perm_overlay_title">Exibir sobre outros apps</string>
+    <string name="perm_overlay_desc">Para mostrar a bolinha flutuante.</string>
+    <string name="perm_accessibility_title">Acessibilidade</string>
+    <string name="perm_accessibility_desc">Para tocar, rolar, digitar e ler a tela de outros apps. Opcional, mas necessária para controlar o celular.</string>
+    <string name="perm_notifications_title">Notificações</string>
+    <string name="perm_notifications_desc">Para mostrar o aviso de que o Jarvis está ativo.</string>
+
+    <string name="status_granted">Concedida</string>
+    <string name="status_missing">Pendente</string>
+    <string name="action_grant">Conceder</string>
+    <string name="action_manage">Ajustar</string>
+
+    <string name="api_key_hint">Cole aqui a sua chave (sk-ant-…)</string>
+    <string name="api_key_help">Crie uma chave em console.anthropic.com. Ela fica guardada criptografada neste aparelho e só é enviada à API da Anthropic.</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_test">Testar</string>
+    <string name="action_remove">Remover</string>
+
+    <string name="model_fast">Rápido</string>
+    <string name="model_balanced">Equilibrado</string>
+    <string name="model_advanced">Avançado</string>
+    <string name="model_hint_fast">Respostas mais rápidas e baratas. Bom para comandos simples.</string>
+    <string name="model_hint_balanced">Melhor custo-benefício para tarefas com vários passos no celular.</string>
+    <string name="model_hint_advanced">Mais cuidadoso em tarefas complexas, porém mais lento e caro.</string>
+
+    <string name="switch_speak">Responder em voz alta</string>
+    <string name="action_start">Iniciar Jarvis</string>
+    <string name="action_stop">Parar Jarvis</string>
+
+    <string name="test_hint">Ex.: que horas são?</string>
+    <string name="action_send_test">Enviar comando</string>
+
+    <string name="privacy_note">Privacidade: o texto da tela só é lido quando um comando precisa dele e é enviado à API do Claude (Anthropic) para decidir o que fazer. Senhas nunca são lidas nem digitadas. Enviar, excluir, pagar e outras ações importantes sempre pedem a sua confirmação.</string>
+
+    <string name="accessibility_dialog_title">Ativar o controle do celular</string>
+    <string name="accessibility_dialog_message">O Jarvis usa o serviço de Acessibilidade do Android para ler o texto da tela e tocar, rolar e digitar em outros apps, somente quando você pede um comando.\n\n• O conteúdo da tela é enviado à API do Claude apenas quando o comando precisa dele.\n• Senhas nunca são lidas nem digitadas.\n• Enviar, excluir, pagar e outras ações importantes sempre pedem a sua confirmação.\n• Você pode desativar a qualquer momento em Ajustes > Acessibilidade.\n\nNa próxima tela, escolha \"Jarvis – controle do celular\" e ative.\n\nSe a opção estiver bloqueada (\"Configuração restrita\"), abra as informações do app, toque em ⋮ e escolha \"Permitir configurações restritas\"; depois volte e ative.</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_app_info">Informações do app</string>
+
+    <string name="panel_confirm">Confirmar</string>
+    <string name="panel_cancel">Cancelar</string>
+</resources>
